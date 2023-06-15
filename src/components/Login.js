@@ -1,8 +1,8 @@
 import React, {useState} from 'react'
 import Form from 'react-bootstrap/Form'
-import Signin_img from './Signin_img'
 import Button from 'react-bootstrap/Button'
 import { useNavigate } from 'react-router-dom'
+import SIgn_img from './SIgn_img'
 const Login = () => {
   const history  = useNavigate();
 
@@ -100,7 +100,7 @@ const Login = () => {
 
     <p className='mt-3'>Already Have an Account <span>SignIn</span></p>
           </div>
-          <Signin_img/>
+          <SIgn_img/>
         
       
          

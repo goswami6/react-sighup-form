@@ -2,8 +2,10 @@
 import React, {useState} from 'react'
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
-import Signin_img from './Signin_img'
 import { NavLink } from 'react-router-dom'
+import SIgn_img from './SIgn_img'
+
+
 
 
 
@@ -15,7 +17,7 @@ const Home = () => {
     password:""
 
   })
-  const [data,setData] = useState([]);
+  const [data] = useState([]);
 
 
   console.log(inpval);
@@ -100,10 +102,12 @@ const Home = () => {
 
     <p className='mt-3'>Already Have an Account <span><NavLink to="/login">SignIn</NavLink></span></p>
           </div>
-          <Signin_img/>
+          <SIgn_img/>
+    
       
          
         </section>
+   
        </div>
 
     
